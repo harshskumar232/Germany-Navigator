@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#013227"/>
+      <stop offset="1" stop-color="#11a37f"/>
+    </linearGradient>
+    <radialGradient id="r" cx="30%" cy="25%" r="70%">
+      <stop offset="0" stop-color="#7ee0c7" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#7ee0c7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="760" fill="#ffffff"/>
+  <rect width="1200" height="760" fill="url(#r)"/>
+  <path d="M0,520 C240,430 420,590 650,520 C820,470 980,320 1200,380 L1200,760 L0,760 Z" fill="url(#g)" opacity="0.12"/>
+  <path d="M0,560 C240,470 420,630 650,560 C820,510 980,360 1200,420 L1200,760 L0,760 Z" fill="url(#g)" opacity="0.08"/>
+  <g opacity="0.9">
+    <circle cx="190" cy="210" r="64" fill="url(#g)" opacity="0.14"/>
+    <circle cx="1020" cy="190" r="92" fill="url(#g)" opacity="0.10"/>
+    <circle cx="980" cy="610" r="140" fill="url(#g)" opacity="0.08"/>
+  </g>
+  <g fill="none" stroke="#013227" stroke-opacity="0.12" stroke-width="2">
+    <path d="M140 310 h320 a30 30 0 0 1 30 30 v120 a30 30 0 0 1-30 30 h-320 a30 30 0 0 1-30-30 v-120 a30 30 0 0 1 30-30z"/>
+    <path d="M760 290 h300 a30 30 0 0 1 30 30 v140 a30 30 0 0 1-30 30 h-300 a30 30 0 0 1-30-30 v-140 a30 30 0 0 1 30-30z"/>
+  </g>
+  <g font-family="Arial" font-weight="700" font-size="18" fill="#013227" opacity="0.75">
+    <text x="170" y="350">Admissions</text>
+    <text x="170" y="382">Visa</text>
+    <text x="170" y="414">Landing</text>
+    <text x="790" y="338">City guide</text>
+    <text x="790" y="370">Budgeting</text>
+    <text x="790" y="402">German</text>
+  </g>
+</svg>
