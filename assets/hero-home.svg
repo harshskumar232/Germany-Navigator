@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#013227"/>
+      <stop offset="1" stop-color="#11a37f"/>
+    </linearGradient>
+    <radialGradient id="r" cx="30%" cy="25%" r="70%">
+      <stop offset="0" stop-color="#7ee0c7" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#7ee0c7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1400" height="900" fill="#ffffff"/>
+  <rect width="1400" height="900" fill="url(#r)"/>
+  <path d="M0,610 C290,520 500,700 780,610 C980,545 1120,420 1400,470 L1400,900 L0,900 Z" fill="url(#g)" opacity="0.12"/>
+  <path d="M0,660 C300,580 520,760 800,660 C1010,600 1125,480 1400,520 L1400,900 L0,900 Z" fill="url(#g)" opacity="0.08"/>
+  <g fill="none" stroke="#013227" stroke-opacity="0.14" stroke-width="3">
+    <path d="M150 240 h430 a36 36 0 0 1 36 36 v170 a36 36 0 0 1-36 36 h-430 a36 36 0 0 1-36-36 v-170 a36 36 0 0 1 36-36z"/>
+    <path d="M770 220 h480 a36 36 0 0 1 36 36 v200 a36 36 0 0 1-36 36 h-480 a36 36 0 0 1-36-36 v-200 a36 36 0 0 1 36-36z"/>
+  </g>
+  <g font-family="Arial" font-weight="800" font-size="24" fill="#013227" opacity="0.8">
+    <text x="190" y="310">Germany Navigator</text>
+    <text x="190" y="350">Official links</text>
+    <text x="190" y="390">Step-by-step</text>
+    <text x="190" y="430">Clean checklist</text>
+    <text x="815" y="300">For Indian students</text>
+    <text x="815" y="340">Simple flow</text>
+    <text x="815" y="380">No clutter</text>
+  </g>
+</svg>
